@@ -15,6 +15,7 @@ namespace Application.Features.Brands.Mapping
             CreateMap<Brand, CreateBrandCommand>().ReverseMap();
             CreateMap<IPaginate<Brand>, ListBrandModel>().ReverseMap();
             CreateMap<Brand, ListBrandDto>().ReverseMap();
+            CreateMap<Brand, GetByIdBrandDto>().ReverseMap();
         }
     }
 }

@@ -1,5 +1,5 @@
 ﻿using Core.Persistence.Interfaces.Repositories;
-using Entities.Entities;
+using Domain.Entities;
 
 namespace Application.Services.Repositories
 {

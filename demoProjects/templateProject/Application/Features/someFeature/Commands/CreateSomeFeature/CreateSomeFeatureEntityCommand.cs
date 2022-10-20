@@ -2,7 +2,7 @@
 using Application.Features.someFeature.Rules;
 using Application.Services.Repositories;
 using AutoMapper;
-using Entities.Entities;
+using Domain.Entities;
 using MediatR;
 
 namespace Application.Features.someFeature.Commands.CreateSomeFeature

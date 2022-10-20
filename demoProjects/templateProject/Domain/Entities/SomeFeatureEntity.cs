@@ -1,6 +1,6 @@
 ﻿using Core.Persistence.Repositories;
 
-namespace Entities.Entities
+namespace Domain.Entities
 {
     public class SomeFeatureEntity : Entity
     {

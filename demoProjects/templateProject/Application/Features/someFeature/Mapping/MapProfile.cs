@@ -1,7 +1,7 @@
 ﻿using Application.Features.someFeature.Commands.CreateSomeFeature;
 using Application.Features.someFeature.DTOs;
 using AutoMapper;
-using Entities.Entities;
+using Domain.Entities;
 
 namespace Application.Features.someFeature.Mapping
 {

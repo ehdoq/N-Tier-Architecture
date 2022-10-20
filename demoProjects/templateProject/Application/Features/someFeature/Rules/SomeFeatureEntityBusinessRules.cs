@@ -1,7 +1,7 @@
 ﻿using Application.Services.Repositories;
 using Core.CrossCuttingConcern.Exceptions.ExceptionModels;
 using Core.Persistence.Interfaces.Paging;
-using Entities.Entities;
+using Domain.Entities;
 
 namespace Application.Features.someFeature.Rules
 {

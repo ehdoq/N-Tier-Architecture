@@ -9,15 +9,17 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "corePackages", "corePackage
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "demoProjects", "demoProjects", "{A1A89080-6E2E-4B1C-ADEC-460D45E4C209}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core.Persistence", "Core.Persistence\Core.Persistence.csproj", "{FC517DE9-3F31-4F13-AFA8-2B451E233396}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Core.Persistence", "Core.Persistence\Core.Persistence.csproj", "{FC517DE9-3F31-4F13-AFA8-2B451E233396}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core.Security", "Core.Security\Core.Security.csproj", "{43929FD3-AA28-4E5B-AFCA-C8F114177A83}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Core.Security", "Core.Security\Core.Security.csproj", "{43929FD3-AA28-4E5B-AFCA-C8F114177A83}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core.Mailing", "Core.Mailing\Core.Mailing.csproj", "{27D577D2-743C-4BA5-A692-73F49071A97E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Core.Mailing", "Core.Mailing\Core.Mailing.csproj", "{27D577D2-743C-4BA5-A692-73F49071A97E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core.ElasticSearch", "Core.ElasticSearch\Core.ElasticSearch.csproj", "{B748D631-2562-4BDD-8EBF-EFB91F794800}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Core.ElasticSearch", "Core.ElasticSearch\Core.ElasticSearch.csproj", "{B748D631-2562-4BDD-8EBF-EFB91F794800}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core.CrossCuttingConcern", "Core.CrossCuttingConcern\Core.CrossCuttingConcern.csproj", "{E2ABEE1D-BCD9-4095-9A4D-0F7156FEE5C2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Core.CrossCuttingConcern", "Core.CrossCuttingConcern\Core.CrossCuttingConcern.csproj", "{E2ABEE1D-BCD9-4095-9A4D-0F7156FEE5C2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core.Application", "Core.Application\Core.Application.csproj", "{291B884B-0A2C-40A1-9C39-62358A2FD5A1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{E2ABEE1D-BCD9-4095-9A4D-0F7156FEE5C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E2ABEE1D-BCD9-4095-9A4D-0F7156FEE5C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E2ABEE1D-BCD9-4095-9A4D-0F7156FEE5C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{291B884B-0A2C-40A1-9C39-62358A2FD5A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{291B884B-0A2C-40A1-9C39-62358A2FD5A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{291B884B-0A2C-40A1-9C39-62358A2FD5A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{291B884B-0A2C-40A1-9C39-62358A2FD5A1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -57,6 +63,7 @@ Global
 		{27D577D2-743C-4BA5-A692-73F49071A97E} = {17D32405-E9AE-49C4-A896-8E43B6C76D4F}
 		{B748D631-2562-4BDD-8EBF-EFB91F794800} = {17D32405-E9AE-49C4-A896-8E43B6C76D4F}
 		{E2ABEE1D-BCD9-4095-9A4D-0F7156FEE5C2} = {17D32405-E9AE-49C4-A896-8E43B6C76D4F}
+		{291B884B-0A2C-40A1-9C39-62358A2FD5A1} = {17D32405-E9AE-49C4-A896-8E43B6C76D4F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {BA4D5A67-10F4-4E8F-8463-4647A420DC68}
